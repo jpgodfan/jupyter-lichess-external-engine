@@ -46,6 +46,6 @@ options:
 ```
 ## 4. Run:
 ```
-!LICHESS_API_TOKEN=your-api-token python example-provider.py --engine stockfish/stockfish-linux-x86-64-universal --name "Stockfish 19 (External)"
+!LICHESS_API_TOKEN=your-api-token python example-provider.py --engine stockfish/stockfish-linux-x86-64-universal --name "Stockfish 19 (External)" --max-hash 8192
 ```
 >Replace `your-api-token` with your Lichess API token
